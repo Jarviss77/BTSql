@@ -42,7 +42,7 @@ int main(int argc, char* argv[]) {
         unsigned short table_count = (static_cast<unsigned char>(buffer[1]) | (static_cast<unsigned char>(buffer[0]) << 8));
         
         cout << "database page size: " << page_size << endl;
-        cout << "No. of page tables: " << table_count << endl;
+        cout << "number of tables: " << table_count << endl;
     }
 
     return 0;
