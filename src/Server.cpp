@@ -27,8 +27,7 @@ int main(int argc, char* argv[]) {
             return 1;
         }
 
-
-        database_file.seekg(16);  // Skip the first 16 bytes of the header
+        database_file.seekg(16);
         
         char buffer[2];
         database_file.read(buffer, 2);
