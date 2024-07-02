@@ -1,3 +1,6 @@
+// not gonna lie, chutiyap hai ye
+// not gonna fucking touch this project again
+// ~ Jarvis77 signing off
 #include <cstring>
 #include <iostream>
 #include <fstream>
@@ -87,6 +90,8 @@ void print_table_name_from_record(const char *record, const size_t len)
     for (int i = 0; i < table_name_bytes; i++)
     {
         cout << record[i + record_len + header_size + type_byte_len];
+
+        
     }
 }
 
